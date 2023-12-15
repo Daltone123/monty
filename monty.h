@@ -82,5 +82,6 @@ void addnode(stacky_t **head, int n);
 void addqueue(stacky_t **head, int n);
 void s_queue(stacky_t **head, unsigned int counter);
 void s_stack(stacky_t **head, unsigned int counter);
-
+ssize_t getline(char **lineptr, size_t *n, FILE *stream);
+int isascii(int c);
 #endif

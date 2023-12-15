@@ -5,7 +5,7 @@
  * @counter: line_number
  * Return: nothing
 */
-void p_pint(stack_t **head, unsigned int counter)
+void p_pint(stacky_t **head, unsigned int counter)
 {
 	if (head == NULL || *head == NULL)
 	{

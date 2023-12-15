@@ -5,9 +5,9 @@
  * @counter: has not been used
  * Return: nothing
 */
-void implement_pall(stack_t **head, unsigned int counter)
+void implement_pall(stacky_t **head, unsigned int counter)
 {
-	stack_t *current;
+	stacky_t *current;
 	(void)counter;
 
 	current = *head;
@@ -15,7 +15,7 @@ void implement_pall(stack_t **head, unsigned int counter)
 		return;
 	while (current)
 	{
-		printf("%d\n", current->n);
+		printf("%d\n", current->num);
 		current = current->next;
 	}
 }

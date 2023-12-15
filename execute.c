@@ -8,7 +8,7 @@
  * @file: pointer to monty file
  * Return: no return
  */
-int execute(char *content, stacky_t **stack, unsigned int counter, FILE *file);
+int execute(char *content, stacky_t **stack, unsigned int counter, FILE *file)
 {
 	instruct_t opst[] = {
 		{"push", implement_push}, {"pall", implement_pall}, {"pint", p_pint},

@@ -5,7 +5,7 @@
  * @counter: line_number
  * Return: nothing
 */
-void implement_push(stack_t **head, unsigned int counter)
+void implement_push(stacky_t **head, unsigned int counter)
 {
 	int num, j = 0, flags = 0;
 

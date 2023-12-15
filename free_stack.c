@@ -3,9 +3,9 @@
 * free_stack - frees a doubly linked list
 * @head: head of the stack
 */
-void free_stack(stack_t *head)
+void free_stack(stacky_t *head)
 {
-	stack_t *aux;
+	stacky_t *aux;
 
 	aux = head;
 	while (head)

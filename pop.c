@@ -6,9 +6,10 @@
  * @counter: line_number
  * Return: no return
  */
-void p_pop(stack_t **head, unsigned int counter)
+void p_pop(stacky_t **head, unsigned int counter)
 {
 	stacky_t *current;
+	dis_t dis = {NULL, NULL, NULL, 0};
 
 	if (head == NULL || *head == NULL)
 	{

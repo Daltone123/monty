@@ -34,5 +34,5 @@ void addnode(stacky_t **head, int n)
 	}
 
 	/* Update the head to point to the new node */
-	*head = new_node
+	*head = new_node;
 }
